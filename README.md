@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# CatFriends App
+## Overview
+CatFriends is a React application that fetches and displays a list of cat profiles from the JSONPlaceholder API. Users can search for specific cats using the search bar, and the app dynamically updates the displayed cat cards based on the search criteria.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Integration with the JSONPlaceholder API to fetch cat profiles. \
+Responsive search functionality for filtering cat profiles. \
+Error handling with an ErrorBoundary component. \
+Smooth scrolling of cat profiles using the Scroll component.
 
-## Available Scripts
+## How to Run
+<b>Clone the Repository</b>: git clone https://github.com/your-username/catfriends-app.git \
+<b>Navigate to the Project directory</b>: cd catfriends-app \
+<b>Install Dependencies</b>: npm install \
+<b>Start the App</b>: npm start
 
-In the project directory, you can run:
+## Technologies Used
+<b>Frontend</b>: React \
+<b>API</b>: JSONPlaceholder \
+<b>Styling</b>: CSS
 
-### `npm start`
+## Project Structure
+<b>App.js</b>: Main component managing state, fetching data, and rendering UI. \
+<b>CardList.js</b>: Component responsible for rendering the list of cat cards. \
+<b>SearchBox.js</b>: Component providing a search input for filtering cat profiles. \
+<b>Scroll.js</b>: Component for creating a smooth scrolling effect. \
+<b>ErrorBoundary.js</b>: Component for handling errors and displaying a fallback UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Contact
+Feel free to reach out for any questions or collaboration opportunities.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<b>Email</b>: pr1206@gmail.com \
+<b>LinkedIn</b>: https://www.linkedin.com/in/poojarejith
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for exploring the CatFriends App! 🐾
